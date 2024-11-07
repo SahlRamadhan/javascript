@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript</title>
+  </head>
+  <body>
+    <h1>Masukkan Berbagai Tipe Data</h1>
+
+    <!-- Form untuk memasukkan data dengan tipe yang berbeda -->
+    <form id="formData">
+      <label for="name">Nama:</label>
+      <input type="text" id="name" name="name" /><br /><br />
+
+      <label for="age">Umur:</label>
+      <input type="number" id="age" name="age" /><br /><br />
+
+      <label for="isStudent">Apakah Anda seorang pelajar?:</label>
+      <select id="isStudent" name="isStudent">
+        <option value="true">Ya</option>
+        <option value="false">Tidak</option></select
+      ><br /><br />
+
+      <label for="hobbies">Hobi:</label>
+      <input type="text" id="hobbies" name="hobbies" /><br /><br />
+
+      <label for="country">Negara:</label>
+      <input type="text" id="country" name="country" /><br /><br />
+
+      <label for="city">Kota:</label>
+      <input type="text" id="city" name="city" /><br /><br />
+
+      <button type="button" onclick="tampilkanData()">Kirim</button>
+    </form>
+
+    <h2>Data yang Dimasukkan:</h2>
+    <div id="hasil"></div>
+    <script src="fundamentaljs.js"></script>
+  </body>
+</html>
